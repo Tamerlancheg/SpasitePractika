@@ -1,0 +1,18 @@
+﻿<Window x:Class="SpasitePractika.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:SpasitePractika"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="450" Width="800">
+    <Grid>
+        <TextBox x:Name="login" HorizontalAlignment="Left" Margin="356,157,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="120"/>
+        <Button x:Name="B1" Content="Войти" HorizontalAlignment="Left" Margin="375,299,0,0" VerticalAlignment="Top" Click="Button_Click" Width="58" Background="#FFB200FF"/>
+        <PasswordBox x:Name="password" HorizontalAlignment="Left" Margin="356,226,0,0" VerticalAlignment="Top" Width="120"/>
+        <TextBlock HorizontalAlignment="Left" Margin="358,136,0,0" TextWrapping="Wrap" Text="Логин" VerticalAlignment="Top"/>
+        <TextBlock HorizontalAlignment="Left" TextWrapping="Wrap" Text="Пороль" VerticalAlignment="Center" Margin="358,0,0,0"/>
+        <TextBlock HorizontalAlignment="Left" Margin="176,46,0,0" TextWrapping="Wrap" Text="       Дабро подаловать в нашу парикмахерскую!" VerticalAlignment="Top" Height="65" Width="480" FontSize="20" FontWeight="Bold"/>
+
+    </Grid>
+</Window>
